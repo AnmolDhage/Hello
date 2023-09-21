@@ -1,39 +1,20 @@
 import { NavLink } from 'react-router-dom'
 import './footer.css'
 import React from 'react'
+import Links from '../../assets/links/links'
 
 const Footer = () => {
+
+
+
   return (
-    <div className=' footer'>
+    <div className='navbar footer'>
       <div className='footer-body'>
-      <div>
-      <ul className='justify-bet gp1'>
-            <li>
-              <NavLink
-              to="/"
-              className={({isActive})=>
-               `${isActive? 'current' : ''}`
-              }
-              >Link 1</NavLink>
-            </li>
-            <li>
-              <NavLink
-              to="/link/2"
-              className={({isActive})=>
-                `${isActive? 'current' : ''}`
-              }
-              >Link 2</NavLink>
-            </li>
-            <li>
-              <NavLink
-              to="/link/3"
-              className={({isActive})=>
-               isActive? 'current' : ''
-              }
-              >Link 3</NavLink>
-            </li>
+        <div>
+          <ul className='justify-bet gp1'>
+            <Links />
           </ul>
-      </div>
+        </div>
       </div>
     </div>
   )

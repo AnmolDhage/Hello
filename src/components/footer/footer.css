@@ -1,22 +1,17 @@
-.footer{
+.footer {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  padding: 1rem;
 }
 
-.footer-body{
-    display: flex;
-    justify-content: center;
+.footer-body {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 786px) {
-    .footer{
-        display: none;
-    }
+  .footer {
+    display: none;
   }
+}

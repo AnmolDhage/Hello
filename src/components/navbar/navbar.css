@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     background-color: black;
     color: white;
     font-family: sans-serif;
@@ -6,33 +6,32 @@
     padding: 1rem;
 }
 
-.navbar div{
+.navbar div {
     cursor: pointer;
     text-decoration: none;
 }
 
-.navbar div :hover{
+.navbar div :hover {
     color: yellow;
 }
 
 ul {
     list-style-type: none;
-    
 }
 
-li *{
+li * {
     text-decoration: none;
     color: white;
 }
 
 
-.justify-bet{
+.justify-bet {
     display: flex;
-    
+
     justify-content: space-between;
 }
 
-.gp1{
+.gp1 {
     gap: 1rem;
 }
 
@@ -41,12 +40,12 @@ li *{
     color: yellow;
 }
 
-.white{
+.white {
     color: white;
 }
 
 @media screen and (max-width: 786px) {
-    .nav-links ul li:nth-child(-n+3){
+    .nav-links ul li:nth-child(-n+3) {
         display: none;
     }
-  }
+}
