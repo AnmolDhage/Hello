@@ -1,0 +1,52 @@
+.navbar{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navbar div{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar div :hover{
+    color: yellow;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li *{
+    text-decoration: none;
+    color: white;
+}
+
+
+.justify-bet{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.gp1{
+    gap: 1rem;
+}
+
+
+.current {
+    color: yellow;
+}
+
+.white{
+    color: white;
+}
+
+@media screen and (max-width: 786px) {
+    .nav-links ul li:nth-child(-n+3){
+        display: none;
+    }
+  }
