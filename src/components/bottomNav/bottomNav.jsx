@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import './bottonNav.css'
+import './bottomNav.css'
 import React from 'react'
 import Links from '../../assets/links/links'
 
