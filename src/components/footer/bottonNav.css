@@ -1,17 +1,17 @@
-.footer {
+.btm-nav {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
 }
 
-.footer-body {
+.btm-nav-body {
   display: flex;
   justify-content: center;
 }
 
 @media screen and (min-width: 786px) {
-  .footer {
+  .btm-nav {
     display: none;
   }
 }

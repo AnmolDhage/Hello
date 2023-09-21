@@ -1,15 +1,15 @@
 import { NavLink } from 'react-router-dom'
-import './footer.css'
+import './bottonNav.css'
 import React from 'react'
 import Links from '../../assets/links/links'
 
-const Footer = () => {
+const BottomNav = () => {
 
 
 
   return (
-    <div className='navbar footer'>
-      <div className='footer-body'>
+    <div className='navbar btm-nav'>
+      <div className='btm-nav-body'>
         <div>
           <ul className='justify-bet gp1'>
             <Links />
@@ -20,4 +20,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default BottomNav
