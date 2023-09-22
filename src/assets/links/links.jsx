@@ -20,14 +20,14 @@ const Links = () => {
 
     return (
         <>
-            {linkList.map((item, key) => {
-                return <li>
+            {linkList?.map((item, key) => {
+                return <li key={key}>
                     <NavLink
-                        to={item.link}
+                        to={item?.link}
                         className={({ isActive }) =>
                             `${isActive ? 'current' : ''}`
                         }
-                    >{item.title}</NavLink>
+                    >{item?.title}</NavLink>
                 </li>
             })}
         </>
